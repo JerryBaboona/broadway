@@ -1,13 +1,14 @@
 /*Body styling*/
 body {
   font-family: Helvetica;
-  color: #FFFFFF;
   text-align: center;
+  font-size: 11px;
 }
 
-/*Top banner styling*/
-#top-banner {
+/*Banner styling*/
+.banner {
   background-image: url("../images/the-flatiron-building.png");
+  color: #FFFFFF;
 }
 
 /*Header styling*/
@@ -16,10 +17,23 @@ h1 {
   font-weight: bold;
 }
 
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
 /*Navigation list styling*/
 ul {
-  list-style-type: none;
   font-size: 18px;
+  /*Removes text indent and bullet points*/
+  padding: 0;
+  list-style-type: none;
+  list-style-position: outside;
 }
 
 li {
